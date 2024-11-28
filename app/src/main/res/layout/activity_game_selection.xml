@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Botón de 4x4 -->
+    <Button
+        android:id="@+id/btn4x4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4x4"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nuevo botón de 3x3 -->
+    <Button
+        android:id="@+id/btn3x3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3x3"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
